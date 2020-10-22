@@ -17,7 +17,7 @@ function useLocalStorageState(key, defaultValue = '') {
 }
 
 function Greeting({initialName = ''}) {
-  const [name, setName] = useLocalStorageState('name', initialName)
+  const [name, setName] = useLocalStorageState('customHook2344', initialName)
 
   function handleChange(event) {
     setName(event.target.value)
